@@ -165,6 +165,7 @@ h6::before { color: var(--maincolor); content: '###### '; }
 footer {
   display: flex;
   align-items: center;
+  justify-content: center;
   border-top: 0.4rem dotted var(--bordercl);
   padding: 2rem 0rem;
   margin-top: 2rem;

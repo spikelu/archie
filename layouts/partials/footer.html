@@ -6,8 +6,9 @@
     {{- end -}}
   </div>
   <div class="footer-info">
-    {{ dateFormat "2006" now }} {{ with .Site.Copyright }} {{ . }} | {{ end }} <a
-      href="https://github.com/athul/archie">Archie Theme</a> | Built with <a href="https://gohugo.io">Hugo</a>
+    <span style="line-height:1; font-size: 1.35rem">©</span>
+    {{ dateFormat "2006" now }}{{ with .Site.Copyright }} {{ . }} | {{ end }}
+    <a href="https://github.com/athul/archie">Archie 主题</a> | 使用 <a href="https://gohugo.io">Hugo</a> 构建
   </div>
 </footer>
 {{ if not .Site.IsServer }}
